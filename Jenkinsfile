@@ -21,7 +21,7 @@ pipeline {
 
         stage('3. Build & Tag Docker Image') {
             steps {
-                bat "docker build -t ${REGISTRY}/${IMAGE_NAME}:${BUILD_NUMBER} -t ${REGISTRY}/${IMAGE_NAME}:latest ."
+                bat "docker build -t localhost:5000/anil-demo-app:4 -t localhost:5000/anil-demo-app:latest ."
             }
         }
 
