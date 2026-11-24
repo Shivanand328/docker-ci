@@ -21,7 +21,7 @@ pipeline {
 
         stage('3. Build & Tag Docker Image') {
             steps {
-                bat "docker build -t localhost:5000/anil-demo-app:4 -t localhost:5000/anil-demo-app:latest ."
+                bat "C:\\Users\\STUDENT\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin\\docker"
             }
         }
 
